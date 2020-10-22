@@ -1,0 +1,36 @@
+{
+  "additionalProperties": true,
+  "properties": {
+    "humidityair": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "number"
+    },
+    "humiditygnd": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "number"
+    },
+    "temperature": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      }
+    },
+    "relayState": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "string"
+    }
+  }
+}
