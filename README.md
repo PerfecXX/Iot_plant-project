@@ -9,6 +9,12 @@
 4.WiFi.h
 # Optional 
   line notification can build in netpie 2020 trigger
+# Netpie description
+  For shadow get raw data from board when start auto-update itself.
+  
+  For schema determine variable value in netpie(time for keep data etc.).
+  
+  For tigger can set event (auto-enable switch ,line notify etc.)
 # Netpei2020 setting
 ![bargain-set](https://user-images.githubusercontent.com/73213619/96829732-6775f180-1464-11eb-9bdc-93ff539b1eb0.PNG)
 ![freeboard-set](https://user-images.githubusercontent.com/73213619/96829801-86748380-1464-11eb-99e7-dd9f23d7f0eb.PNG)
@@ -18,3 +24,4 @@
 
 # Reference
 https://docs.netpie.io/
+http://netpie.io/tutorials
