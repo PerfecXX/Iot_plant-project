@@ -1,4 +1,3 @@
-
 #include "DHT.h"
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -9,13 +8,13 @@
 #define MOISTURE A0 //pin soil
 #define RELAY 2 //set pin relay
 
-const char* ssid ="TNI_ROBOT"; ; //***change
-const char* password ="tnieng406"; //***change
+const char* ssid ="PXsystem"; ; //***change
+const char* password ="pb22092542+"; //***change
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883;
-const char* mqtt_Client = "3e2529d4-40ed-4322-9833-8e6b0dccbb3d"; //***change
-const char* mqtt_username = "pdNw9nVS2M12qmPm5K2xkoPLGvMAmWsH";  //***change
-const char* mqtt_password = "tSO56gFCsHIrp1u5!lpzamnTTTGM!ZXG";  //***change
+const char* mqtt_Client = "fd6e1706-6c6d-4d86-a9eb-3c51eda6217b"; //***change
+const char* mqtt_username = "Jkn2KbfoYZggcCX3AadBLWjy1eShtQjV";  //***change
+const char* mqtt_password = "pGDnByNn1F0)QLLMwcbgaVaagIZWM1CX";  //***change
 const String LINE_TOKEN = "UXoQuM29uL2sKu7Afd45mtdgpe4EuR5Le7zS3GVmSku"; //***change
 
 String motorState ; //show motor state 0=found 1 = not found
